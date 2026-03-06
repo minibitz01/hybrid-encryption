@@ -1,25 +1,4 @@
 
-/*
-Assignment :
-hillplayfair - Hill cipher followed by Playfair cipher
-Author : Ana Paula Ramos Lopez
-Language : C 
-To Compile :
-gcc - O2 - std = c11 -o hillplayfair hillplayfair . c
-To Execute ( on Eustis ) :
-./hillplayfair encrypt key.txt plain.txt keyword.txt
-where :
-key . txt = key matrix file
-plain . txt = plaintext file
-keyword . txt = Playfair keyword file
-Notes :
-- Input is text ; process A - Z only ( case - insensitive ) .
-- Tested on Eustis .
-Class : CIS3360 - Security in Computing - Spring 2026
-Instructor : Dr . Jie Lin
-Due Date : February 16 th 2026
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -44,14 +44,12 @@ C
 Compile the program:
 
 ```
-gcc hillplayfair.c -o hillplayfair
-```
+gcc -O2 -std=c11 -o hillplayfair hillplayfair.c```
 
 Run the encryption:
 
 ```
-./hillplayfair encrypt key.txt plain.txt keyword.txt
-```
+./hillplayfair encrypt key.txt plain.txt keyword.txt```
 
 ## Example Input Files
 
